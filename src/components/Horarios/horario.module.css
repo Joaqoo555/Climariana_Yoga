@@ -1,0 +1,49 @@
+.msg {
+  width: 90%;
+  border-radius: 5px;
+  background: var(--color-atent);
+}
+.hor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.calendar {
+    margin-top: 1.4em;
+  display: grid;
+  grid-template-areas:
+    "lunes martes"
+    "miercoles jueves"
+    "viernes  viernes";
+  width: 90%;
+  background: var(--color-green);
+  height: auto;
+  padding: .3em;
+}
+.calendar div {
+    border-bottom: 1px solid #000;
+    margin: .5em;
+}
+
+.lunes {
+    grid-area:lunes ;
+}
+.martes {
+    grid-area:martes ;
+
+}
+
+.miercoles {
+    grid-area:miercoles ;
+
+}
+.jueves {
+    grid-area:jueves ;
+
+}
+.viernes {
+    grid-area:viernes ;
+
+}

@@ -6,8 +6,7 @@ p{
     height: 30vh;
     display: flex;
     flex-direction: column;
-    justify-content:space-around;
-    align-items:center;
+    align-items: center;
 }
 
 .option {
@@ -17,17 +16,27 @@ p{
     min-height: 2vh;
     padding: .4em;
     text-align: center;
+    margin: 2em auto 6em;
 }
+
 .head {
     width: 90%;
-    max-height: 6vh;
-    min-height: 2vh;
+    min-height: 7.3vh;
     background-color: var(--color-green);
     padding: .8em;
     border-radius: 5px;
     text-align: center;
+    margin: 0 auto;
+    margin-bottom: 2em;
 
 }
 .arrow{
-
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    scale: 3;
+    opacity: .6;
+}
+.img {
+    width: 2.4em;
 }

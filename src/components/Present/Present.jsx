@@ -1,6 +1,8 @@
 import React from 'react'
 import img_climariana_background from "../../img/background-Climariana.png"
 import style from "./present.module.css"
+
+
 const Present = () => {
   return (
     <div className={style.conteiner}>
