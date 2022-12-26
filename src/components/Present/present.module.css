@@ -6,6 +6,7 @@
 
 .container_img{
     position: relative;
+    text-align: center;
 }
 .sub_tittle{
     position: absolute;
@@ -22,22 +23,36 @@
     height: 100%;
     z-index: 0;
 }
-/* .arrow {
+ .arrow {
     position: absolute;
-    z-index: 2;
-    height: 2px;
-    border-top: 1.2px solid #000;
+    text-align: center;
+	width: 75px;
+  height: 65px;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.more_arrows {
+    width: 75px;
+    height: 65px;
+}
+.more_arrows:hover polygon {
+    transition: all 0.2s ease-out;
+}
+.more_arrows:hover .arrow_bottom {
+    transform: translateY(-18px);
 }
 
-.arrow1 {
-
+.more_arrows:hover .arrow_top {
+    transform: translateY(18px);
 }
-.arrow2 {
-    
+polygon {
+    fill: #333;
+    transition: all 0.2s ease-out;
 }
-.arrow3 {
-    
+.arrow_middle {
+    opacity: 0.75;
 }
-.arrow4 {
-    
-} */
+.arrow_top {
+    opacity: 0.5;
+}
