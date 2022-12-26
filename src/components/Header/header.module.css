@@ -1,0 +1,13 @@
+header {
+    height: 8vh;
+    background-color: var(--color-white);
+}
+.content_header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.tittle{
+    width: 50%;
+    margin: .5em 0 0em 0em;
+}
