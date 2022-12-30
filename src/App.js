@@ -9,6 +9,7 @@ function App() {
       <Header />
       <Present/>
       <Why/>
+      <Footer/>
     </div>
   );
 }

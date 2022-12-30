@@ -1,0 +1,29 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+}
+.contact {
+    padding: .5em;
+    background-color: var(--color-green);
+    border-radius: .2em;
+    text-align: center;
+
+}
+.icon {
+    width: 30px;
+    margin: 0 .9em;
+    cursor: pointer;
+    opacity: .6;
+    transition: .3s;
+}
+.icon:hover{
+    opacity: 1;
+}
+@media (min-width: 800px) {
+    .icon {
+        width: 50px;
+
+    }
+  }

@@ -1,13 +1,22 @@
 header {
     height: 8vh;
     background-color: var(--color-white);
+    text-align: center;
 }
 .content_header{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 .tittle{
     width: 50%;
     margin: .5em 0 0em 0em;
 }
+
+@media (min-width: 800px) {
+    header {
+        height: 15vh;
+        background-color: var(--color-white);
+        text-align: center;
+    }
+  }
